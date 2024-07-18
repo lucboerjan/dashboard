@@ -1,0 +1,438 @@
+.card-dashboard {
+    width: 180px;
+}
+
+.card-body-dashboard {
+    text-align: center;
+    overflow-y: hidden;
+
+}
+
+.logo-dashboard {
+    width: 64px;
+    height: auto;
+    //margin-left: 40px;
+    padding-top: 5px;
+}
+
+.py-4 {
+    padding-top: 1.0rem !important;
+}
+
+.filmdatum,
+.detailDatum,
+.transactiedatum {
+    //width: 150px !important;
+    height: 32px;
+}
+
+.div_transactiedatum {
+    width: 200px;
+}
+
+.containerRekeningen,
+spelrondeContainer {
+    display: flex;
+    /* Use flexbox for layout */
+}
+
+.box {
+    width: 250px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+    margin: 3px;
+    /* Adjust the margin as needed */
+    // border: 1px solid #000; /* Add a border for visibility */
+}
+
+
+#rekeningOverzicht,
+#transactieOverzicht,
+#overzichtTransacties,
+#overzichtRekeningen {
+    ul {
+        list-style: none;
+    }
+}
+
+.rekeningAction,
+.myActionButton {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+table.transactietabel tbody tr td {
+    vertical-align: middle;
+}
+
+.eerste-kolom {
+    width: 200px;
+
+}
+
+
+.diagonal-cell {
+    position: relative;
+    width: 100px;
+    /* Set your desired width */
+    height: 100px;
+    /* Set your desired height */
+    border: 1px solid black;
+}
+
+.diagonal-cell:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    /* Thickness of the diagonal line */
+    transform-origin: top left;
+    transform: translateY(100%) rotate(-45deg);
+    /* Angle of the diagonal line */
+}
+
+.top-text,
+.bottom-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+//ZONNEPANELEN
+#dagelijkseMeting,
+#jaarOverzicht {
+    border: 1px solid;
+    /* Specify the border style */
+    text-align: center;
+    overflow-y: unset;
+}
+
+.card-zp {
+    border: 1px solid;
+}
+
+
+
+/* Define styles for table cells, rows, and headers */
+#dagelijkseMeting td,
+#dagelijkseMeting tr,
+#dagelijkseMeting th,
+#tblJaarOverzicht td,
+#tblJaarOverzicht tr,
+#tblJaarOverzicht th {
+    border: 1px solid;
+    /* Specify the border style */
+    padding: 3px;
+}
+
+/* Define styles for the buttons */
+.zonnepaneelbtn {
+    padding: 0;
+    /* Remove default padding */
+    width: 30px;
+    /* Set the width of the buttons */
+    height: 30px;
+    /* Set the height of the buttons */
+}
+
+/* Define styles for the <i> elements within buttons */
+.zonnepaneelbtn i {
+    font-size: 15px;
+    /* Set the font size of the <i> elements to match the button size */
+}
+
+#tblJaarOverzicht td,
+#tblJaarOverzicht th {
+    padding: 8px;
+    width: 60px;
+}
+
+.tblJaarOverzichtZonnepanelen td,
+.tblJaarOverzichtZonnepanelen tr,
+.tblJaarOverzichtZonnepanelen th {
+    font-size: 13px;
+}
+
+.tblJaarOverzichtZonnepanelen th {
+    font-weight: bold;
+}
+
+//dashboard
+.dataToepassingen {
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-top: 5px;
+
+    border-radius: 10px;
+    border: 9px;
+}
+
+// AANDELEN
+#tblFondsenOverzicht tr,
+#tblFondsenOverzicht td,
+#tblFondsenOverzicht th,
+.aandelenAankopen tr,
+.aandelenAankopen td,
+.aandelenAankopen th {
+    border: 1px solid;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.numvalue {
+    text-align: center;
+    width: 117px;
+}
+
+#tblFondsenOverzicht th,
+.aandelenAankopen th,
+.actieButtons {
+    text-align: center;
+}
+
+.aandelenAankopen {
+    height: 500px;
+}
+
+// TVVERTONINGEN
+.datumselector {
+    height: fit-content;
+    margin-bottom: 0;
+}
+
+.div_filmdatum {
+    margin-top: 0;
+    /* Remove top margin from the div_transactiedatum */
+    padding-top: 0;
+    /* Remove top padding from the div_transactiedatum if any */
+}
+
+.vorige,
+.volgende,
+.filmdatum {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+// TELLERSTANDEN
+.tellerstandOverzicht th,
+.tellerstandOverzicht tr,
+.tellerstandOverzicht td {
+    text-align: center;
+    width: 105px;
+    border: 1px solid;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.actieButtonsTellerstand {
+    width: 120px;
+}
+
+
+.form-group {
+    display: flex;
+    // flex-direction: row;
+    align-items: center;
+}
+
+.form-label {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+    /* Adjust as needed */
+}
+
+.form-control {
+    flex: 2;
+}
+
+.tblFilmOverzicht th,
+.tblFilmOverzicht tr,
+.tblFilmOverzicht td {
+    font-size: 12px;
+}
+
+//internetlinks en groepen
+
+.internetgroepen {
+    height: fit-content !important;
+}
+
+.internetLinks tr,
+.internetLinks td,
+.internetLinks th {
+    border: 1px solid;
+    padding: 3px;
+    font-size: 14px;
+}
+
+
+.intenetlinkID {
+    width: 450px;
+}
+
+.internetActieButtons {
+    text-align: center;
+    width: 150px;
+}
+
+.card-body {
+    height: fit-content;
+    /* Adjust the height to fit the content */
+    overflow-y: auto;
+    /* Add scrollbars if content exceeds height */
+}
+
+//PUNTENTELLING
+.spelmainOverzicht tr,
+.spelmainOverzicht td,
+.spelmainOverzicht th {
+    border: 1px solid;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.spelrondeOverzicht tr,
+.spelrondeOverzicht td,
+.spelrondeOverzicht th {
+    border: 1px solid;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.spelrondeOverzicht th,
+.spelrondeOverzicht td {
+    width: 100px;
+    text-align: center;
+}
+
+.spelrondeNaam {
+    font-size: 36px;
+}
+
+.spelrondeScore {
+    font-size: 48px;
+}
+
+.toevoegen_spelronde {
+    width: 180px;
+}
+
+.toevoegen_spelmain {
+    text-align: center;
+}
+
+.spelmain {
+    padding-right: 210px !important;
+}
+
+.scoreContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* Adjust gap between cards as needed */
+
+}
+
+.scoretegel {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: floralwhite;
+}
+
+.geselecteerd {
+    background-color: aqua;
+}
+
+.isDeler {
+    background-color: aqua;
+}
+
+.rankGold {
+    background-color: gold;
+}
+.rankSilver {
+    background-color: silver;
+}
+.rankBronze {
+    background-color: burlywood;
+}
+.rankUniverrsal {
+    background-color: whitesmoke;
+}
+
+
+
+//FINANCIEEL
+.transactieJaaroverzichtTabel tr,
+.transactieJaaroverzichtTabel td,
+.transactieJaaroverzichtTabel th {
+    border: 1px solid;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.transactieJaaroverzichtTabel .bedrag {
+    width: 80px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.transactieJaaroverzichtTabel .periode {
+    width: 80px;
+    text-align: center;
+}
+
+.transactieJaaroverzichtTabel .omschrijving {
+    width: 140px;
+}
+
+#inkomstenTabel,
+#uitgavenTabel,
+#saldoTabel {
+    border: 1 px solid;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.inkomsten {
+    background-color: green;
+}
+
+.uitgaven {
+    background-color: red;
+}
+
+#modDlgInhoud .form-control {
+    width: inherit !important;
+
+}

@@ -1,0 +1,41 @@
+{
+    "taal": "nl",
+    "talen": {
+        "nl": [
+            "Nederlands",
+            "afbeelding\/vlag\/nederland.gif"
+        ],
+        "en": [
+            "English",
+            "afbeelding\/vlag\/unitedkingdom.gif"
+        ]
+    },
+    "app": {
+        "favicon": "afbeelding\/app\/favicon.png",
+        "logo": "afbeelding\/app\/logo.png",
+        "zonnepanelen": "afbeelding\/app\/zonnepanelen.png",
+        "meterstand": "afbeelding\/app\/meterstand.png",
+        "tankbeurten": "afbeelding\/app\/tankbeurten.png",
+        "aandelen": "afbeelding\/app\/aandelen.png",
+        "tvaanbod": "afbeelding\/app\/tvaanbod.png",
+        "financieel": "afbeelding\/app\/financieel.png",
+        "internetlinks": "afbeelding\/app\/internetlinks.png",
+        "puntentelling": "afbeelding\/app\/cardgame.png",
+        "lottobingo": "afbeelding\/app\/lottobingo.png",
+        "stamboom": "afbeelding\/app\/stamboom.png"
+
+    },
+    "paginering": {
+        "knoppen": 5,
+        "knoppenkeuzelijst": [3,5,7,9],
+        "aantalperpagina": 10,
+        "aantalperpaginakeuzelijst": [5, 10, 20, 50, 100],
+        "aantaltellerstandenzonnepanelenperpagina":18,
+        "aantalvertoningenperpagina":18,
+        "aantalimdbratingsperpagina":18,
+        "aantaltransactiesperpagina":13
+    },
+    "aandelen_noteringen": {
+        "3":"4"   
+    }
+}    
